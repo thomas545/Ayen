@@ -69,7 +69,7 @@ Payload:
 }`
 ##### Login
 Method: `POST`  
-Endpoint: `/login/`  
+Endpoint: `auth/login/`  
 Payload:  
 `{  
     "username": "USERNAME / EMAIL",  
@@ -78,5 +78,5 @@ Payload:
 
 ##### Logout
 Method: `POST`  
-Endpoint: `/logout/`  
+Endpoint: `auth/logout/`  
 Headers: `Authorization: JWT YOUR_TOKEN_HERE`  
