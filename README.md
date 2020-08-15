@@ -28,7 +28,7 @@
 `sudo apt-get update`  
 `sudo apt-get install python-dev libpq-dev postgresql postgresql-contrib`
 2. Switch to **postgres** (PostgreSQL administrative user):  
-`sudo su postgres`
+`sudo -u postgres psql`
 3. Log into a Postgres session:  
 `psql`
 4. Create database with name **ayen**:  
