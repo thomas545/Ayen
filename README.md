@@ -62,11 +62,11 @@ Method: `POST`
 Endpoint: `/registration/`  
 Payload:  
 `{  
-    "username": "USERNAME",  
+    "email": "EMAIL",  
     "password1": "PASSWORD",  
     "password2": "PASSWORD",  
-    "email": "OPTIONAL_EMAIL"  
 }`
+
 ##### Login
 Method: `POST`  
 Endpoint: `auth/login/`  
